@@ -5,20 +5,24 @@
 
 body {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #8C0303;
+  display: grid;
+  place-content: center;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
 }
 
 .container {
   margin-top: 10px;
-  height: 700px;
-  width: 60%;
-  background-color: #0F2426;
+  height: 800px;
+  width: 600px;
+  background-color: #246469a6;
   color: white;
   padding: 30px;
   border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
 }
 
 #input-tarefa {
@@ -42,7 +46,7 @@ body {
 
 .tarefas {
   background-color: white;
-  height: 80%;
+  height: 85%;
   width: 100%;
   border-radius: 10px;
   margin: auto;
@@ -89,7 +93,7 @@ ul li .botoes-tarefa {
 }
 
 .botoes-tarefa button:hover {
-  background-color: #0F2426;
+  background-color: #0f2426;
 }
 
 .tarefas ul .clicado {
