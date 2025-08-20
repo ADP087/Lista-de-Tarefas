@@ -30,15 +30,16 @@ h1 {
   width: 100%;
   max-width: 300px;
   margin: 10px auto;
+  margin-left: 50px;
 }
 
 .botao-ind {
   padding: 5px;
   width: 30%;
-  height: 40px;
-  background-color: black;
+  height: 35px;
+  background-color: #01bb64;
   color: white;
-  font-size: 0.8em;
+  font-size: 1.2em;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -57,29 +58,34 @@ h1 {
 .tarefas ul li {
   list-style: none;
   display: flex;
+  align-items: center;
   width: 100%;
   padding: 10px 0 10px 0;
   cursor: pointer;
   background-color: rgb(192, 192, 192);
   border-radius: 5px;
   margin-bottom: 5px;
+  font-size: 1.5em;
 }
 
 ul li input {
   width: 20px;
   height: 30px;
   margin-right: 10px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
 ul li p {
   margin-left: 10px;
   font-size: 1.1em;
+  color: black;
 }
 
 ul li .botoes-tarefa {
   display: flex;
   margin-left: auto;
+  margin-right: 10px;
   gap: 10px;
 }
 
